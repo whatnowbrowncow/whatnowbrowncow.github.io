@@ -1,0 +1,69 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Welcome to wotnowbrowncow</title>
+        <link>http://example.org/posts/</link>
+        <description>Recent content in Posts on Welcome to wotnowbrowncow</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 12 Feb 2021 21:21:04 +0000</lastBuildDate>
+        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Thoughts on Network Automation</title>
+            <link>http://example.org/posts/firstblog/</link>
+            <pubDate>Fri, 12 Feb 2021 21:21:04 +0000</pubDate>
+            
+            <guid>http://example.org/posts/firstblog/</guid>
+            <description>The changing world of the network engineer&amp;hellip;&amp;hellip;
+There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
+If you&amp;rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.
+Make no mistake, network automation is here and it’s here to stay.
+Inevitably that realisation can be a little unsettling, it means change, potentially significant change, to an industry that’s remained comfortingly static for the past decade or three.</description>
+            <content type="html"><![CDATA[<p>The changing world of the network engineer&hellip;&hellip;</p>
+<p>There&rsquo;s no getting away from it, the role of the modern network engineer is changing.</p>
+<p>If you&rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.</p>
+<p>Make no mistake, network automation is here and it’s here to stay.</p>
+<p>Inevitably that realisation can be a little unsettling, it means change, potentially significant change, to an industry that’s remained comfortingly static for the past decade or three.</p>
+<p>It can also be confusing and lead to a lot of questions:</p>
+<p>Is this the end of the cli and networking as we know it?
+No
+Is automation going to take my job?
+Nope
+Does this mean I need to become a coder?
+Not necessarily
+Do I need to buy a ‘clacky’ keyboard and cover my laptop with stickers?
+Only if you really want to
+Should I start thinking about building a skillset for Network Automation?
+Yes, absolutely!</p>
+<p>And the key thing to remember in all this?…..Don’t panic!</p>
+<p>In a lot of cases (and this is one of them) change is good! This is not a doomsday scenario, this is not the end of traditional network engineering and it certainly isn’t the case that automation is here to take all our jobs (more of that in a bit).
+Network automation is an opportunity to learn new skills, eliminate the monotony of repetitive tasks and also make your life easier.</p>
+<p>I’ve been heavily involved in network automation for about 2 years now and I understand how at first, mastering a whole new set of skills can seem to be an insurmountable task. Make no mistake, the learning curve is steep and there’s a lot to take in but with the right mindset and a sensible approach, a whole new world of possibilities awaits.</p>
+<p>I could just write another series of technical ‘how to’ blogs on the various network automation tools and techniques but to be honest, there is a lot of very good content out there that already does this.  What I’m aiming to do with this blog is to take a more expansive view, sure there’ll be some technical detail and explanations but I also want to focus on the lesser talked about elements like logistics, process and strategy.</p>
+<p>Ultimately what I’d like to do is pass on some of the discoveries I’ve made; and lessons I’ve learned while trying to introduce automation to a large scale production environment, hopefully inspiring some of you to get started with network automation.</p>
+<p>But before I get into too much detail I think it’s worth answering some common questions and addressing some common misconceptions about network automation…..</p>
+<p>I can do my job just fine, why do I need Network Automation?
+I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:
+Speed - Computers think and act faster than humans
+Consistency - Computers don&rsquo;t make mistakes</p>
+<p>I don’t know, all this automation has to be developed and tested, surely it’s quicker just to get it done?
+You know what? You might be right, by the time automation has been developed and tested, in some cases you probably would have the time to carry out the task manually;</p>
+<p>Once!</p>
+<p>The real value in network automation is the concept of write once, run many. Once you have successfully developed a piece of automation it can be run many times with the same consistent results and almost zero resource requirements. Whereas with manual deployments you will need to dedicate the same amount of resource each and every time you need to carry out that task with no guarantees of accuracy or consistency.</p>
+<p>Right, so I’m automating myself out of a job</p>
+<p>Wrong!</p>
+<p>How many times in your career have you found yourself performing a mundane, time consuming, repetitive task on your network estate? Resetting local admin passwords, updating management ACLs, removing unused firewall rules. You log onto one device after another, making your changes, then you double check a couple because you’ve lost your place on the list, you might have made a mistake here or there. Finally you’ve got them all done only for the job to roll around again a few weeks later, surely there has to be a better way?
+Network Automation isn&rsquo;t about replacing human engineers, it&rsquo;s about taking care of those repetitive, monotonous everyday tasks. Computers don’t get bored, they don’t get tired or distracted, what they do is perform tasks predictably with speed and consistency. Embracing the tools available to automate the everyday will free you up to get involved in the more interesting stuff.</p>
+<p>OK fine, network automation definitely sounds appealing, but there’s so much to learn and I’m not a coder</p>
+<p>Neither am I!</p>
+<p>Two years ago I was in the same position, I’d never used Linux, I’d never heard of Jinja2 and I thought Git was an insult!
+The point is that you don’t need a history in coding, software development or automation in order to get started. There are a number of orchestration tools out there (Ansible being a prime example) that provide a layer of abstraction between the user and the underlying code greatly reducing the barrier to entry. There’s plenty of opportunity to understand and execute complex code and tooling but you’ll be surprised just how easy it is to get a simple piece automation up and running. It’s all about starting small and layering up your skill set over time.</p>
+<p>Ok you’ve convinced me, where do I start?
+The best advice I can give is to just get involved and start automating, it’s a bit of a cliche but you will learn far more by getting stuck in and trying things than you ever will just reading a book. There are some excellent resources out there that cover everything you need to know to get started, most notably is the content over on Cisco Devnet and their excellent sandbox labs, all available free at the time of writing.
+I’ll also be adding more content to the blog in the coming weeks with a more in depth look into some of the areas I think are important to get right in your network automation journey.</p>
+<p>Thanks for reading!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
