@@ -18,10 +18,10 @@
     
     <item>
       <title>Thoughts on Network Automation</title>
-      <link>http://example.org/posts/firstblog/</link>
+      <link>http://example.org/posts/2021/02/thoughts-on-network-automation/</link>
       <pubDate>Fri, 12 Feb 2021 21:21:04 +0000</pubDate>
       
-      <guid>http://example.org/posts/firstblog/</guid>
+      <guid>http://example.org/posts/2021/02/thoughts-on-network-automation/</guid>
       <description>The changing world of the network engineer&amp;hellip;&amp;hellip;
 There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
 If you&amp;rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.
