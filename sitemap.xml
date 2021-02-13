@@ -38,11 +38,7 @@
   </url>
   
   <url>
-    <loc>localhost/blog/</loc>
-  </url>
-  
-  <url>
-    <loc>localhost/series/</loc>
+    <loc>localhost/categories/</loc>
   </url>
   
 </urlset>
