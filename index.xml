@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hello Friend NG</title>
-    <link>localhost/</link>
-    <description>Recent content on Hello Friend NG</description>
+    <title>Welcome to wotnowbrowncow</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Welcome to wotnowbrowncow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 12 Feb 2021 21:21:04 +0000</lastBuildDate><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Feb 2021 21:21:04 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About from about.md</title>
-      <link>localhost/about/</link>
+      <link>http://example.org/about/</link>
       <pubDate>Fri, 12 Feb 2021 22:52:12 +0000</pubDate>
       
-      <guid>localhost/about/</guid>
+      <guid>http://example.org/about/</guid>
       <description>I&amp;rsquo;m Dave, hello!</description>
     </item>
     
     <item>
       <title>Thoughts on Network Automation</title>
-      <link>localhost/posts/firstblog/</link>
+      <link>http://example.org/posts/firstblog/</link>
       <pubDate>Fri, 12 Feb 2021 21:21:04 +0000</pubDate>
       
-      <guid>localhost/posts/firstblog/</guid>
+      <guid>http://example.org/posts/firstblog/</guid>
       <description>The changing world of the network engineer&amp;hellip;&amp;hellip;
 There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
 If you&amp;rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.
@@ -32,10 +31,10 @@ Inevitably that realisation can be a little unsettling, it means change, potenti
     
     <item>
       <title>Main from main.md</title>
-      <link>localhost/main/</link>
+      <link>http://example.org/main/</link>
       <pubDate>Fri, 12 Feb 2021 21:15:51 +0000</pubDate>
       
-      <guid>localhost/main/</guid>
+      <guid>http://example.org/main/</guid>
       <description>this is main.md</description>
     </item>
     
