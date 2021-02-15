@@ -8,6 +8,19 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Feb 2021 21:21:04 +0000</lastBuildDate><atom:link href="https://whatnowbrowncow.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Useful links</title>
+      <link>https://whatnowbrowncow.github.io/links/</link>
+      <pubDate>Mon, 15 Feb 2021 11:19:55 +0000</pubDate>
+      
+      <guid>https://whatnowbrowncow.github.io/links/</guid>
+      <description>Below you can find some links to other community content that is worth exploring&amp;hellip;.
+CISCO DEVNET
+Developer site - https://developer.cisco.com
+Sandbox labs - https://developer.cisco.com/site/sandbox/
+I really can&amp;rsquo;t recommend this resource enough, Cisco have put together a vast array of training videos and labs to guide you on your automation journey as well as an accompanying sandbox lab enviroment to get hands on experience of all available topics. The best part of all?</description>
+    </item>
+    
+    <item>
       <title>About from about.md</title>
       <link>https://whatnowbrowncow.github.io/about/</link>
       <pubDate>Fri, 12 Feb 2021 22:52:12 +0000</pubDate>
@@ -22,8 +35,7 @@
       <pubDate>Fri, 12 Feb 2021 21:21:04 +0000</pubDate>
       
       <guid>https://whatnowbrowncow.github.io/posts/2021/02/thoughts-on-network-automation/</guid>
-      <description>The changing world of the network engineer&amp;hellip;&amp;hellip;
-There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
+      <description>There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
 If you&amp;rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.
 Make no mistake, network automation is here and it’s here to stay.
 Inevitably that realisation can be a little unsettling, it means change, potentially significant change, to an industry that’s remained comfortingly static for the past decade or three.</description>
