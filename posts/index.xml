@@ -42,9 +42,9 @@ Network automation is an opportunity to learn new skills, eliminate the monotony
 <p>Ultimately what I’d like to do is pass on some of the discoveries I’ve made; and lessons I’ve learned while trying to introduce automation to a large scale production environment, hopefully inspiring some of you to get started with network automation.</p>
 <p>But before I get into too much detail I think it’s worth answering some common questions and addressing some common misconceptions about network automation…</p>
 <p><strong><em>&ldquo;I can do my job just fine, why do I need Network Automation?&quot;</em></strong></p>
-<p>I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:
-Speed - Computers think and act faster than humans
-Consistency - Computers don&rsquo;t make mistakes</p>
+<p>I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:</p>
+<p><em>Speed</em> - Computers think and act faster than humans</p>
+<p><em>Consistency</em> - Computers don&rsquo;t make mistakes</p>
 <p><strong><em>&ldquo;I don’t know, all this automation has to be developed and tested, surely it’s quicker just to get it done?&quot;</em></strong></p>
 <p>You know what? You might be right, by the time automation has been developed and tested, in some cases you probably would have the time to carry out the task manually;</p>
 <p><strong>Once!</strong></p>
