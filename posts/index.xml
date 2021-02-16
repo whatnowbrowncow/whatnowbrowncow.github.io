@@ -42,9 +42,9 @@ Network automation is an opportunity to learn new skills, eliminate the monotony
 <p>Ultimately what I’d like to do is pass on some of the discoveries I’ve made; and lessons I’ve learned while trying to introduce automation to a large scale production environment, hopefully inspiring some of you to get started with network automation.</p>
 <p>But before I get into too much detail I think it’s worth answering some common questions and addressing some common misconceptions about network automation…</p>
 <p><strong><em>&ldquo;I can do my job just fine, why do I need Network Automation?&quot;</em></strong></p>
-<p>I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:</p>
-<p><em>Speed</em> - Computers think and act faster than humans</p>
-<p><em>Consistency</em> - Computers don&rsquo;t make mistakes</p>
+<p>I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:
+Speed - Computers think and act faster than humans
+Consistency - Computers don&rsquo;t make mistakes</p>
 <p><strong><em>&ldquo;I don’t know, all this automation has to be developed and tested, surely it’s quicker just to get it done?&quot;</em></strong></p>
 <p>You know what? You might be right, by the time automation has been developed and tested, in some cases you probably would have the time to carry out the task manually;</p>
 <p><strong>Once!</strong></p>
@@ -56,10 +56,10 @@ Network Automation isn&rsquo;t about replacing human engineers, it&rsquo;s about
 <p><strong><em>&ldquo;OK fine, network automation definitely sounds appealing, but there’s so much to learn and I’m not a coder&rdquo;</em></strong></p>
 <p><strong>Neither am I&hellip;</strong></p>
 <p>Two years ago I was in the same position, I’d never used Linux, I’d never heard of Jinja2 and I thought Git was an insult!
-The point is that you don’t need a history in coding, software development or automation in order to get started. There are a number of orchestration tools out there (Ansible being a prime example) that provide a layer of abstraction between the user and the underlying code greatly reducing the barrier to entry. There’s plenty of opportunity to understand and execute complex code and tooling but you’ll be surprised just how easy it is to get a simple piece of automation up and running. It’s all about starting small and layering up your skill set over time.</p>
+The point is that you don’t need a history in coding, software development or automation in order to get started. There are a number of orchestration tools out there (Ansible being a prime example) that provide a layer of abstraction between the user and the underlying code greatly reducing the barrier to entry. There’s plenty of opportunity to understand and execute complex code and tooling but you’ll be surprised just how easy it is to get a simple piece automation up and running. It’s all about starting small and layering up your skill set over time.</p>
 <p><strong><em>&ldquo;Ok you’ve convinced me, where do I start?&quot;</em></strong></p>
 <p>The best advice I can give is to just get involved and start automating, it’s a bit of a cliche but you will learn far more by getting stuck in and trying things than you ever will just reading a book. There are some excellent resources out there that cover everything you need to know to get started, most notably the content over on <a href="https://developer.cisco.com">Cisco Devnet</a> and their excellent <a href="https://developer.cisco.com/site/sandbox/">sandbox labs</a>, all available free at the time of writing.
-You can checkout my <a href="https://whatnowbrowncow.github.io/links/">useful links</a> section for community content that I think is worth a look and I’ll also be adding more content to the blog in the coming weeks; with a more in depth look at some of the key areas of consideration when starting your network automation journey.</p>
+You can checkout my <a href="https://whatnowbrowncow.github.io/links/">useful links</a> section for community content that I think is worth a look and I’ll also be adding more content to the blog in the coming weeks; with a more in depth look at some of the key areas of considertation when starting your network automation journey.</p>
 <p>But for now&hellip;&hellip;thanks for reading!</p>
 ]]></content>
         </item>
