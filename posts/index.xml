@@ -21,7 +21,7 @@ Just to be clear, this is not a comprehensive list of everything you need to kno
 <hr>
 <h3 id="linux---the-operating-system">Linux - the operating system</h3>
 <p>First of all you&rsquo;re going to need something to run all of your tools, I make the assumption that most people reading this will be running a windows machine and whilst some of your toolkit will run quite happily on Windows natively, that&rsquo;s not always the case.</p>
-<p>Linux is an open source operating system used to run all of the other tools mentioned here, Linux users usually obtain their operating system by downloading a Linux distribution (distros) such as Ubuntu or CentOS. To begin with you don&rsquo;t need to have an in depth understanding of Lixux but you will need to master the basics such as navigating/manipulating the directory structure and installing applications.</p>
+<p>Linux is an open source operating system used to run all of the other tools mentioned here, Linux users usually obtain their operating system by downloading a Linux distribution (distro) such as Ubuntu or CentOS. To begin with you don&rsquo;t need to have an in depth understanding of Linux but you will need to master the basics such as navigating/manipulating the directory structure and installing applications.</p>
 <p>There are a number of ways to run a Linux development environment from your windows machine such as:</p>
 <ul>
 <li>Docker containers</li>
