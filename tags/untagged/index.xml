@@ -6,7 +6,17 @@
     <description>Recent content in untagged on whatnowbrowncow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 21:21:04 +0000</lastBuildDate><atom:link href="https://whatnowbrowncow.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Feb 2021 22:10:05 +0000</lastBuildDate><atom:link href="https://whatnowbrowncow.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The network developer&#39;s toolkit</title>
+      <link>https://whatnowbrowncow.github.io/posts/2021/02/the-network-developers-toolkit/</link>
+      <pubDate>Wed, 17 Feb 2021 22:10:05 +0000</pubDate>
+      
+      <guid>https://whatnowbrowncow.github.io/posts/2021/02/the-network-developers-toolkit/</guid>
+      <description>Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &amp;lsquo;go to&amp;rsquo; toolkit for network automation.
+Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development.</description>
+    </item>
+    
     <item>
       <title>The changing world of the network engineer....</title>
       <link>https://whatnowbrowncow.github.io/posts/2021/02/the-changing-world-of-the-network-engineer..../</link>
