@@ -1,22 +1,140 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on whatnowbrowncow</title>
-        <link>https://whatnowbrowncow.github.io/posts/</link>
-        <description>Recent content in Posts on whatnowbrowncow</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Fri, 05 Mar 2021 19:20:05 +0000</lastBuildDate>
-        <atom:link href="https://whatnowbrowncow.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Dave Burton ">
+<meta name="description" content="Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &amp;lsquo;go to&amp;rsquo; toolkit for network automation.
+Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development." />
+<meta name="keywords" content=", untagged" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://whatnowbrowncow.github.io/posts/2021/03/the-network-developers-toolkit/" />
+
+
+    <title>
         
-        <item>
-            <title>The network developer&#39;s toolkit</title>
-            <link>https://whatnowbrowncow.github.io/posts/2021/03/the-network-developers-toolkit/</link>
-            <pubDate>Fri, 05 Mar 2021 19:20:05 +0000</pubDate>
+            The network developer&#39;s toolkit :: whatnowbrowncow 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+
+
+
+
+
+
+<meta itemprop="name" content="The network developer&#39;s toolkit">
+<meta itemprop="description" content="Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &lsquo;go to&rsquo; toolkit for network automation.
+Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development.">
+<meta itemprop="datePublished" content="2021-03-05T19:20:05+00:00" />
+<meta itemprop="dateModified" content="2021-03-05T19:20:05+00:00" />
+<meta itemprop="wordCount" content="1976">
+
+
+
+<meta itemprop="keywords" content="untagged," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The network developer&#39;s toolkit"/>
+<meta name="twitter:description" content="Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &lsquo;go to&rsquo; toolkit for network automation.
+Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development."/>
+
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2021-03-05 19:20:05 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd ~</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
             
-            <guid>https://whatnowbrowncow.github.io/posts/2021/03/the-network-developers-toolkit/</guid>
-            <description>Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &amp;lsquo;go to&amp;rsquo; toolkit for network automation.
-Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development.</description>
-            <content type="html"><![CDATA[<p>Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &lsquo;go to&rsquo; toolkit for network automation.</p>
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about">About</a></li><li><a href="/posts">Blog</a></li><li><a href="/links">Useful Links</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        10 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://whatnowbrowncow.github.io/posts/2021/03/the-network-developers-toolkit/">The network developer&rsquo;s toolkit</a>
+      </h1>
+
+      
+
+      
+
+      <div class="post-content">
+        <p>Following on from my first blog post about the changing world of network engineering I thought it would be a good idea to talk about some of the tools and technologies that will form your &lsquo;go to&rsquo; toolkit for network automation.</p>
 <p>Just to be clear, this is not a comprehensive list of everything you need to know, nor is it an endorsement of any particular technology over another, this is simply a collection of tools that I use regularly as part of my automation development. I&rsquo;m going to cover what each one is, how it works and what it&rsquo;s used for. The idea being that when used together, you should have all the tools you need to produce your first piece of network automation.</p>
 <hr>
 <h3 id="linux---the-operating-system">Linux - the operating system</h3>
@@ -150,64 +268,109 @@ Loopback0,Management,192.168.1.1,255.255.255.224,up
 <p>As I said at the beginning, this list is not comprehensive and there are alternative technologies to most of the tools I&rsquo;ve talked about. In fact I&rsquo;m pretty sure that as you read this there will be a debate raging somewhere about the benefits of XML over YAML, or Terraform over Ansible.</p>
 <p>The point of this post is not to say which is better, the point is to give those of you starting out in network automation an idea of the tools that I&rsquo;ve found most useful. If you grow to love them too, great; if you decide that there&rsquo;s a better alternative for you, that&rsquo;s fine too.</p>
 <p>I&rsquo;ll leave that for you to decide&hellip;</p>
-]]></content>
-        </item>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://whatnowbrowncow.github.io/tags/untagged/">untagged</a></span>
         
-        <item>
-            <title>The changing world of the network engineer....</title>
-            <link>https://whatnowbrowncow.github.io/posts/2021/02/the-changing-world-of-the-network-engineer..../</link>
-            <pubDate>Fri, 12 Feb 2021 21:21:04 +0000</pubDate>
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        1976 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2021-03-05 19:20
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://whatnowbrowncow.github.io/posts/2021/02/the-changing-world-of-the-network-engineer..../">
+                <span class="button__text">The changing world of the network engineer....</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+    
+
+  </main>
+
+            </div>
+
             
-            <guid>https://whatnowbrowncow.github.io/posts/2021/02/the-changing-world-of-the-network-engineer..../</guid>
-            <description>There&amp;rsquo;s no getting away from it, the role of the modern network engineer is changing.
-If you&amp;rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.
-Make no mistake, network automation is here and it’s here to stay.
-Inevitably that realisation can be a little unsettling, it means change, potentially significant change, to an industry that’s remained comfortingly static for the past decade or three.</description>
-            <content type="html"><![CDATA[<p>There&rsquo;s no getting away from it, the role of the modern network engineer is changing.</p>
-<p>If you&rsquo;ve been keeping even a cursory eye on recent developments within the networking community, you’ll have done well to avoid terms like NetDevOPs, Infrastructure as code, Network programability and Software Defined Networking.</p>
-<p>Make no mistake, network automation is here and it’s here to stay.</p>
-<p>Inevitably that realisation can be a little unsettling, it means change, potentially significant change, to an industry that’s remained comfortingly static for the past decade or three.</p>
-<p>It can also be confusing and lead to a lot of questions:</p>
-<p>Is this the end of the cli and networking as we know it?<br>
-<strong>No</strong></p>
-<p>Is automation going to take my job?<br>
-<strong>Nope</strong></p>
-<p>Does this mean I need to become a coder?<br>
-<strong>Not necessarily</strong></p>
-<p>Do I need to buy a ‘clacky’ keyboard and cover my laptop with stickers?<br>
-<strong>Only if you really want to</strong></p>
-<p>Should I start thinking about building a skillset for Network Automation?<br>
-<strong>Yes, absolutely!</strong></p>
-<p>And the key thing to remember in all this?&hellip;.</p>
-<h2 id="dont-panic"><strong>Don’t panic!</strong></h2>
-<p>In a lot of cases (and this is one of them) change is good! This is not a doomsday scenario, this is not the end of traditional network engineering and it certainly isn’t the case that automation is here to take all our jobs (more of that in a bit).
-Network automation is an opportunity to learn new skills, eliminate the monotony of repetitive tasks and also make your life easier.</p>
-<p>I’ve been heavily involved in network automation for about 2 years now and I understand how at first, mastering a whole new set of skills can seem to be an insurmountable task. Make no mistake, the learning curve is steep and there’s a lot to take in but with the right mindset and a sensible approach, a whole new world of possibilities awaits.</p>
-<p>I could just write another series of technical ‘how to’ blogs on the various network automation tools and techniques but to be honest, there is a lot of very good content out there that already does this.  What I’m aiming to do with this blog is to take a more expansive view, sure there’ll be some technical detail and explanations but I also want to focus on the lesser talked about elements like logistics, process and strategy.</p>
-<p>Ultimately what I’d like to do is pass on some of the discoveries I’ve made; and lessons I’ve learned while trying to introduce automation to a large scale production environment, hopefully inspiring some of you to get started with network automation.</p>
-<p>But before I get into too much detail I think it’s worth answering some common questions and addressing some common misconceptions about network automation…</p>
-<p><strong><em>&ldquo;I can do my job just fine, why do I need Network Automation?&quot;</em></strong></p>
-<p>I could write an entire blog answering this question alone (and maybe I will) but it really boils down to two things:</p>
-<p><em>Speed</em> - Computers think and act faster than humans</p>
-<p><em>Consistency</em> - Computers don&rsquo;t make mistakes</p>
-<p><strong><em>&ldquo;I don’t know, all this automation has to be developed and tested, surely it’s quicker just to get it done?&quot;</em></strong></p>
-<p>You know what? You might be right, by the time automation has been developed and tested, in some cases you probably would have the time to carry out the task manually;</p>
-<p><strong>Once!</strong></p>
-<p>The real value in network automation is the concept of write once, run many. Once you have successfully developed a piece of automation it can be run many times with the same consistent results and almost zero resource requirements. Whereas with manual deployments you will need to dedicate the same amount of resource each and every time you need to carry out that task with no guarantees of accuracy or consistency.</p>
-<p><strong><em>&ldquo;Right, so I’m automating myself out of a job then.&quot;</em></strong></p>
-<p><strong>Wrong!</strong></p>
-<p>How many times in your career have you found yourself performing a mundane, time consuming, repetitive task on your network estate? Resetting local admin passwords, updating management ACLs, removing unused firewall rules. You log onto one device after another, making your changes, then you double check a couple because you’ve lost your place on the list, you might have made a mistake here or there. Finally you’ve got them all done only for the job to roll around again a few weeks later, surely there has to be a better way?
-Network Automation isn&rsquo;t about replacing human engineers, it&rsquo;s about taking care of those repetitive, monotonous everyday tasks. Computers don’t get bored, they don’t get tired or distracted, what they do is perform tasks predictably with speed and consistency. Embracing the tools available to automate the everyday will free you up to get involved in the more interesting stuff.</p>
-<p><strong><em>&ldquo;OK fine, network automation definitely sounds appealing, but there’s so much to learn and I’m not a coder&rdquo;</em></strong></p>
-<p><strong>Neither am I&hellip;</strong></p>
-<p>Two years ago I was in the same position, I’d never used Linux, I’d never heard of Jinja2 and I thought Git was an insult!
-The point is that you don’t need a history in coding, software development or automation in order to get started. There are a number of orchestration tools out there (Ansible being a prime example) that provide a layer of abstraction between the user and the underlying code greatly reducing the barrier to entry. There’s plenty of opportunity to understand and execute complex code and tooling but you’ll be surprised just how easy it is to get a simple piece automation up and running. It’s all about starting small and layering up your skill set over time.</p>
-<p><strong><em>&ldquo;Ok you’ve convinced me, where do I start?&quot;</em></strong></p>
-<p>The best advice I can give is to just get involved and start automating, it’s a bit of a cliche but you will learn far more by getting stuck in and trying things than you ever will just reading a book. There are some excellent resources out there that cover everything you need to know to get started, most notably the content over on <a href="https://developer.cisco.com">Cisco Devnet</a> and their excellent <a href="https://developer.cisco.com/site/sandbox/">sandbox labs</a>, all available free at the time of writing.
-You can checkout my <a href="https://whatnowbrowncow.github.io/links/">useful links</a> section for community content that I think is worth a look and I’ll also be adding more content to the blog in the coming weeks; with a more in depth look at some of the key areas of considertation when starting your network automation journey.</p>
-<p>But for now&hellip;&hellip;thanks for reading!</p>
-]]></content>
-        </item>
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://whatnowbrowncow.github.io/">Dave Burton</a></span>
+            <span><a href="https://whatnowbrowncow.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
         
-    </channel>
-</rss>
+
+
+
+<script type="text/javascript" src="/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>
