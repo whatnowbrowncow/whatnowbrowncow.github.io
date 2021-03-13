@@ -87,7 +87,7 @@ Let&rsquo;s compare YAML to XML</p>
   &lt;/<span style="color:#f92672">Interfaces</span>&gt;
 </code></pre></div><p>As you can see whilst both examples are decipherable YAML is presented in a way that is more familiar to us as humans and therefore easier to read and digest quickly.
 The basic YAML structure uses colons to separate key: value pairs (like a dictionary) and dashes to create “bullet” lists.</p>
-<p>One important thing to note is that YAML is uses strict whitespace indentation to denote this structure so any miss-aligned data within a file will result in errors.</p>
+<p>One important thing to note is that YAML uses strict whitespace indentation to denote this structure so any miss-aligned data within a file will result in errors.</p>
 <hr>
 <h3 id="jinja2---the-templating-language">Jinja2 - the templating language</h3>
 <p>Once you&rsquo;ve gotten to grips with Ansible and YAML you will soon come to realise that automating configuration across your network estate isn&rsquo;t the only high value use case. What automation also gives you is the ability to pull information or data from a huge number of sources (i.e. your managed devices) into a central place. This data can come in many formats, structures and languages (e.g. lists, dictionaries, YAML or JSON).</p>
