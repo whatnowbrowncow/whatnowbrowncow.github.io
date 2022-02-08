@@ -6,7 +6,17 @@
     <description>Recent content in untagged on whatnowbrowncow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 19:20:05 +0000</lastBuildDate><atom:link href="https://whatnowbrowncow.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Feb 2022 11:00:54 +0000</lastBuildDate><atom:link href="https://whatnowbrowncow.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Snowflakes snowflakes everywhere, network automation in a brownfield world!</title>
+      <link>https://whatnowbrowncow.github.io/posts/2022/02/snowflakes-snowflakes-everywhere-network-automation-in-a-brownfield-world/</link>
+      <pubDate>Tue, 08 Feb 2022 11:00:54 +0000</pubDate>
+      
+      <guid>https://whatnowbrowncow.github.io/posts/2022/02/snowflakes-snowflakes-everywhere-network-automation-in-a-brownfield-world/</guid>
+      <description>I want to start this blog post by clearing something up; when you decide to start exploring network automation you&amp;rsquo;re essentially starting at the bottom of the mountain, therefore you&amp;rsquo;d be ill advised to try and plot a new path and get to the top on your own. You&amp;rsquo;re much better off taking the path well troden, following the examples of others and ultimately re-using people&amp;rsquo;s code and ideas.
+Now that might sound like plagerism but it&amp;rsquo;s really not, as you get more involved in the coding community (community being the key word here) you come to realise that a lot of code is made up of little bits of other people&amp;rsquo;s code.</description>
+    </item>
+    
     <item>
       <title>The network developer&#39;s toolkit</title>
       <link>https://whatnowbrowncow.github.io/posts/2021/03/the-network-developers-toolkit/</link>
