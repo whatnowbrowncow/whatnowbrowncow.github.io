@@ -183,10 +183,10 @@ This scenario is the inevitable result of manual changes being carried out by a 
 <pre><code class="language-jinja2" data-lang="jinja2">{% for host_ip in range(1,51) %}
 configure terminal
 interface GigabitEthernet 0/1/0
+ip vrf forwarding ISP2-VRF
 description New interface for 2nd ISP link
 shutdown
 ip address 10.1.{{host_ip}}.1 255.255.255.0
-ip vrf forwarding ISP2-VRF
 {% endfor %}
 </code></pre><p>So far so good&hellip;&hellip;</p>
 <p>Now let&rsquo;s take a look at the effect of running that automation on the first five routers on your network</p>
@@ -208,7 +208,7 @@ ip vrf forwarding ISP2-VRF
 </tr>
 <tr>
 <td>3</td>
-<td>Failed - Interface was already in use for an ad-hoc connection to AWS, the config change pleaced this interface in a shutdown state and caused an outage</td>
+<td>Failed - Interface was already in use for an ad-hoc connection to AWS, the config change placed this interface in a shutdown state and caused an outage</td>
 </tr>
 <tr>
 <td>4</td>
@@ -292,10 +292,10 @@ GigabitEthernet0/4    192.168.191.2   YES    unset  down       	down
 {%       if device.interface_status == down %}  &lt;-- Test 3
 configure terminal
 interface GigabitEthernet 0/1/0
+ip vrf forwarding ISP2-VRF
 description New interface for 2nd ISP link
 shutdown
 ip address 10.1.1.{{loop.index}} 255.255.255.0
-ip vrf forwarding ISP2-VRF
 {%       endif %}
 {%     endif %}
 {%   endif %}
